@@ -33,12 +33,6 @@ public class UserController {
         return "register_page";
     }
 
-	@GetMapping("/share") 
-    public String getRegistratiShareintln("test1");
-        model.addAttribute("registerRequest", new Users());
-        return "register_page";
-    }
-
     @GetMapping("/login")
     public String getLoginPage(Model model ) {
         System.out.println("Reg-login");
